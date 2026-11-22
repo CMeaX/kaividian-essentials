@@ -303,8 +303,8 @@ Habitat = Forest
 Category = Forest Fire
 Pokedex = Using the wood's natural flexibility, it can coil itself to launch powerful attacks like a spring. A special gas released by the bark enables it to keep burning.
 #-------------------------------
-[INDIGENAPU]
-Name = Indigenapu
+[DIJENAPU]
+Name = Dijenapu
 Types = ELECTRIC,FIGHTING
 BaseStats = 55,105,50,115,55,50
 GenderRatio = Female50Percent
@@ -365,7 +365,7 @@ Weight = 146.7
 Color = Brown
 Shape = BipedalTail
 Category = Beaver
-Pokedex = Adanacians have worshipped beavers for ages, and as a result, Bibarel evolved to show its gratitude.
+Pokedex = Adanacians have worshipped beavers for ages and, as a result, Bibarel evolved to show its gratitude.
 #-------------------------------
 [PHANTASTICK]
 Name = Phanta'Stick

@@ -10,7 +10,7 @@ ShowArea = true
 MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
-[003]   # Player's house
+[003]   # \PN's house
 Name = \PN's house
 HealingSpot = 2,8,8
 MapPosition = 0,13,12
@@ -154,14 +154,14 @@ MapSize = 2,1101
 #-------------------------------
 [032]   # Kracket Village
 Name = Kracket Village
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = field
 #-------------------------------
-[033]   # \Player's  House
+[033]   # \PN's  House
 Name = \PN's house
-HealingSpot=33,11,5
+HealingSpot = 33,11,5
 #-------------------------------
 [034]   # Ice Cave
 Name = Route 3
@@ -171,18 +171,18 @@ BattleBack = cave1
 Environment = Cave
 Flags = IceRock
 #-------------------------------
-[035]   # Ingido Plateau outside
+[035]   # Ingido Plateau
 Name = Ingido Plateau
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,6
 #-------------------------------
-[036]   # Pokémon League entrance
+[036]   # Pokémon League
 Name = Ingido Plateau
 HealingSpot = 35,17,7
 MapPosition = 0,13,6
 #-------------------------------
-[037]   # Pokémon League room 1
+[037]   # Pokémon League
 Name = Ingido Plateau
 MapPosition = 0,13,6
 BattleBack = elite1
@@ -201,7 +201,7 @@ MapPosition = 0,11,6
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[040]   # Route 4 Cycling Road
+[040]   # Route 4
 Name = Route 4
 Outdoor = true
 ShowArea = true
@@ -224,14 +224,14 @@ MapPosition = 0,11,10
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[045]   # Route 6 Cycling Road
+[045]   # Route 6
 Name = Route 6
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,10
 #-------------------------------
-[046]   # Route 4 Cycling Road gate
+[046]   # Cycling Road gate
 Name = Route 4
 Bicycle = true
 MapPosition = 0,12,6
@@ -246,7 +246,7 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
-[049]   # Rock Cave 1F
+[049]   # Rock Cave
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -254,7 +254,7 @@ BattleBack = cave1
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[050]   # Rock Cave B1F
+[050]   # Rock Cave
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -342,7 +342,7 @@ Name = Battle Frontier
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
-[066]   # Safari Zone outside
+[066]   # Safari Zone
 Name = Safari Zone
 Outdoor = true
 ShowArea = true
@@ -370,13 +370,13 @@ MapPosition = 0,13,13
 DiveMap = 70
 BattleBack = field
 #-------------------------------
-[070]   # Route 8 underwater
+[070]   # Underwater
 Name = Route 8
 MapPosition = 0,13,13
 BattleBack = underwater
 Environment = Underwater
 #-------------------------------
-[071]   # Route 8 harbor
+[071]   # Harbour
 Name = Route 8
 MapPosition = 0,13,13
 #-------------------------------
@@ -397,7 +397,7 @@ MapPosition = 0,22,16
 BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
-[074]   # Route 6 Cycling Road gate
+[074]   # Cycling Road gate
 Name = Route 6
 Bicycle = true
 MapPosition = 0,12,10
@@ -410,38 +410,38 @@ BattleBack = city
 #-------------------------------
 [077]   # Route 8-1
 Name = Route 8-1
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = field
 #-------------------------------
 [078]   # Mirmirch Town
 Name = Mirmirch Town
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = field
 #-------------------------------
 [079]   # Mirmirch Path
 Name = Mirmirch Path
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = field
 #-------------------------------
-[080]   # Brown Forest Inner
+[080]   # Brown Forest
 Name = Brown Forest
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = forest
 Environment = Forest
 #-------------------------------
-[090]   # Brown Forest Deeper
+[090]   # Brown Forest
 Name = Brown Forest
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = forest
 Environment = Forest
 #-------------------------------
@@ -467,453 +467,445 @@ ShowArea = true
 #-------------------------------
 [097]   # Mirmirch Town
 Name = Mirmirch Town
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
 BattleBack = field
 #-------------------------------
 [102]   # Route 8-3
 Name = Route 8-3
-Weather = Rain,20
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
+Weather = Rain,20
 BattleBack = field
 #-------------------------------
 [106]   # Kugwak National Park
 Name = Kugwak National Park
-Weather = Rain,0
-Bicycle = true
 Outdoor = true
 ShowArea = true
+Bicycle = true
+Weather = Rain,0
 BattleBack = field
 #-------------------------------
-[107]   # Kugwak Cave 1
+[107]   # Kugwak Cave
 Name = Kugwak Cave
-Bicycle = true
 ShowArea = true
-Battleback = cave1
+Bicycle = true
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
-[108]   # Kugwak Cave 2
+[108]   # Kugwak Cave
 Name = Kugwak Cave
-Bicycle = true
 ShowArea = true
-Battleback = cave1
+Bicycle = true
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
-[109]   # Kugwak Cave 3
+[109]   # Kugwak Cave
 Name = Kugwak Cave
-Bicycle = true
 ShowArea = true
-Battleback = cave1
+Bicycle = true
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [110]   # Rocky Hideout
 Name = Rocky Hideout
-Bicycle = true
 Outdoor = true
 ShowArea = true
-Battleback = cave1
+Bicycle = true
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [116]   # Route 8-2
 Name = Route 8-2
-Bicycle = true
 Outdoor = true
 ShowArea = true
-Battleback = field
+Bicycle = true
+BattleBack = field
 #-------------------------------
 [119]   # New Monten City
 Name = New Monten City
-Bicycle = true
 Outdoor = true
 ShowArea = true
-Battleback = field
+Bicycle = true
+BattleBack = field
 #-------------------------------
 [133]   # Bordridge Village
 Name = Bordridge Village
-Bicycle = true
 Outdoor = true
 ShowArea = true
-Battleback = field
+Bicycle = true
 #-------------------------------
 [137]   # Kracket Beach
 Name = Kracket Beach
+Outdoor = true
+ShowArea = true
+Bicycle = true
 Weather = Rain,0
-Bicycle = true
+BattleBack = field
+#-------------------------------
+[138]   # Bridge 1
+Name = Bridge 1
 Outdoor = true
 ShowArea = true
-Battleback = field
-#-------------------------------
-[138]
-# Bridge 1
 Bicycle = true
+#-------------------------------
+[139]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[139]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[140]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[140]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[141]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[141]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[142]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[142]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[143]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[143]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[144]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[144]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[145]   # Poké Federation Bridge
+Name = Poké Federation Bridge
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[145]
-# Poké Federation Bridge
 Bicycle = true
+#-------------------------------
+[146]   # Federation Path
+Name = Federation Path
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[146]
-# Federation Path
 Bicycle = true
+#-------------------------------
+[147]   # Iceberg Cave
+Name = Iceberg Cave
+#-------------------------------
+[151]   # Route 4
+Name = Route 4
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[147]
-# Iceberg Cave
-#-------------------------------
-[151]
-# Route 4
-Weather=Rain,40
 Bicycle = true
+Weather = Rain,40
+#-------------------------------
+[155]   # Glasgow Town
+Name = Glasgow Town
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[155]
-# Glasgow Town
-Weather=Rain,20
 Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[156]   # Glasgow Town
+Name = Glasgow Town
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[156]
-# Glasgow Town
 Bicycle = true
+#-------------------------------
+[157]   # Glasgow Passage
+Name = Glasgow Passage
+ShowArea = true
+Bicycle = true
+DiveMap = 158
+DarkMap = true
+#-------------------------------
+[158]   # Glasgow Passage
+Name = Glasgow Passage
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[168]   # Route 5
+Name = Route 5
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[157]
-# Glasgow Passage
-DiveMap=158
 Bicycle = true
-DarkMap=true
-Outdoor=false
-ShowArea = true
+Weather = Rain,40
 #-------------------------------
-[158]
-# Glasgow Passage
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[168]
-# Route 5
-Weather=Rain,40
-Bicycle = true
+[169]   # Route 6
+Name = Route 6
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[169]
-# Route 6
-Weather=Rain,40
 Bicycle = true
+Weather = Rain,40
+#-------------------------------
+[170]   # Route 6
+Name = Route 6
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[170]
-# Route 6
-Weather=Rain,40
 Bicycle = true
+Weather = Rain,40
+#-------------------------------
+[171]   # Sea Cave 1F
+Name = Sea Cave 1F
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[172]   # Sea Cave 2F
+Name = Sea Cave 2F
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[173]   # Sea Cave 3F
+Name = Sea Cave 3F
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[174]   # Sea Cave Secret Path
+Name = Sea Cave Secret Path
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[175]   # Sea Cave Summit
+Name = Sea Cave Summit
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[171]
-# Sea Cave 1F
 Bicycle = true
-DarkMap=true
-ShowArea = true
+Weather = Snow,100
 #-------------------------------
-[172]
-# Sea Cave 2F
-Bicycle = true
-DarkMap=true
-Outdoor=false
-ShowArea = true
-#-------------------------------
-[173]
-# Sea Cave 3F
-Bicycle = true
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[174]
-# Sea Cave Secret Path
-Bicycle = true
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[175]
-# Sea Cave Summit
-Weather=Snow,100
-Bicycle = true
+[177]   # Halax City Plaza
+Name = Halax City Plaza
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[177]
-# Halax City Plaza
-Weather=Rain,20
 Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[178]   # Halax Tourist Bureau
+Name = Halax Tourist Bureau
+#-------------------------------
+[184]   # Halax City
+Name = Halax City
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[178]
-# Halax Tourist Bureau
-#-------------------------------
-[184]
-# Halax City
-Weather=Rain,20
 Bicycle = true
+Weather = Rain,20
+#-------------------------------
+[185]   # Halax City Docks
+Name = Halax City Docks
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[185]
-# Halax City Docks
-DiveMap=187
-Weather=Rain,20
 Bicycle = true
+Weather = Rain,20
+DiveMap = 187
+#-------------------------------
+[186]   # Pokémon Centre
+Name = Pokémon Centre
+ShowArea = true
+#-------------------------------
+[187]   # Halax City Docks
+Name = Halax City Docks
+DarkMap = true
+#-------------------------------
+[201]   # Lighthouse 1F
+Name = Lighthouse 1F
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[202]   # Lighthouse 2F
+Name = Lighthouse 2F
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[206]   # Lighthouse 3F
+Name = Lighthouse 3F
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[207]   # Lighthouse 4F
+Name = Lighthouse 4F
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[208]   # Lighthouse 5F
+Name = Lighthouse 5F
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[209]   # Halax Weather Institute
+Name = Halax Weather Institute
+Weather = Rain,0
+#-------------------------------
+[223]   # Bridge 2
+Name = Bridge 2
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[186]
-# Pokémon Center
-ShowArea = true
-#-------------------------------
-[187]
-# Halax City Docks
-DarkMap=true
-#-------------------------------
-[201]
-# Lighthouse 1F
-SnapEdges=false
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[202]
-# Lighthouse 2F
-SnapEdges=false
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[206]
-# Lighthouse 3F
-SnapEdges=false
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[207]
-# Lighthouse 4F
-SnapEdges=false
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[208]
-# Lighthouse 5F
-SnapEdges=false
-DarkMap=true
-ShowArea = true
-#-------------------------------
-[209]
-# Halax Weather Institute
-Weather=Rain,0
-#-------------------------------
-[223]
-# Bridge 2
 Bicycle = true
+#-------------------------------
+[224]   # Bridge 3
+Name = Bridge 3
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[224]
-# Bridge 3
 Bicycle = true
+#-------------------------------
+[225]   # Bridge 4
+Name = Bridge 4
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[225]
-# Bridge 4
 Bicycle = true
+#-------------------------------
+[226]   # Bridge 5
+Name = Bridge 5
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[226]
-# Bridge 5
 Bicycle = true
+#-------------------------------
+[227]   # Bridge 6
+Name = Bridge 6
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[227]
-# Bridge 6
 Bicycle = true
+#-------------------------------
+[228]   # Bridge 7
+Name = Bridge 7
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[228]
-# Bridge 7
 Bicycle = true
+#-------------------------------
+[229]   # Bridge 8
+Name = Bridge 8
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[229]
-# Bridge 8
 Bicycle = true
+#-------------------------------
+[230]   # Bridge 9
+Name = Bridge 9
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[230]
-# Bridge 9
 Bicycle = true
+#-------------------------------
+[231]   # Bridge 10
+Name = Bridge 10
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[231]
-# Bridge 10
 Bicycle = true
+#-------------------------------
+[232]   # Bridge 11
+Name = Bridge 11
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[232]
-# Bridge 11
 Bicycle = true
+#-------------------------------
+[233]   # Bridge 12
+Name = Bridge 12
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[233]
-# Bridge 12
 Bicycle = true
+#-------------------------------
+[234]   # Bridge 13
+Name = Bridge 13
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[234]
-# Bridge 13
 Bicycle = true
+#-------------------------------
+[235]   # Bridge 14
+Name = Bridge 14
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[235]
-# Bridge 14
 Bicycle = true
+#-------------------------------
+[236]   # Bridge 15
+Name = Bridge 15
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[236]
-# Bridge 15
 Bicycle = true
+#-------------------------------
+[237]   # Bridge 16
+Name = Bridge 16
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[237]
-# Bridge 16
 Bicycle = true
+#-------------------------------
+[238]   # Bridge 17
+Name = Bridge 17
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[238]
-# Bridge 17
 Bicycle = true
+#-------------------------------
+[239]   # Bridge 18
+Name = Bridge 18
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[239]
-# Bridge 18
 Bicycle = true
+#-------------------------------
+[240]   # Bridge 19
+Name = Bridge 19
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[240]
-# Bridge 19
 Bicycle = true
+#-------------------------------
+[241]   # Bridge 20
+Name = Bridge 20
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[241]
-# Bridge 20
 Bicycle = true
+#-------------------------------
+[242]   # Bridge 21
+Name = Bridge 21
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[242]
-# Bridge 21
 Bicycle = true
+#-------------------------------
+[243]   # Bridge 22
+Name = Bridge 22
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[243]
-# Bridge 22
 Bicycle = true
+#-------------------------------
+[244]   # Bridge 23
+Name = Bridge 23
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[244]
-# Bridge 23
 Bicycle = true
+#-------------------------------
+[245]   # Bridge 24
+Name = Bridge 24
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[245]
-# Bridge 24
 Bicycle = true
+#-------------------------------
+[246]   # Bridge 25
+Name = Bridge 25
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[246]
-# Bridge 25
 Bicycle = true
+#-------------------------------
+[247]   # Bridge 26
+Name = Bridge 26
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[247]
-# Bridge 26
 Bicycle = true
+#-------------------------------
+[248]   # Bridge 27
+Name = Bridge 27
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[248]
-# Bridge 27
 Bicycle = true
+#-------------------------------
+[249]   # Bridge 28
+Name = Bridge 28
 Outdoor = true
 ShowArea = true
-#-------------------------------
-[249]
-# Bridge 28
 Bicycle = true
-Outdoor = true
-ShowArea = true

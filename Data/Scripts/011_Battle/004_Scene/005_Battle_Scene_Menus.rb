@@ -199,7 +199,7 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
   attr_reader :battler
   attr_reader :shiftMode
 
-  GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON = true
+  GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON = false
 
   # If true, displays graphics from Graphics/UI/Battle/overlay_fight.png
   #     and Graphics/UI/Battle/cursor_fight.png.
@@ -211,9 +211,9 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
   TYPE_ICON_HEIGHT = 28
   # Text colours of PP of selected move
   PP_COLORS = [
-    Color.new(248, 72, 72), Color.new(136, 48, 48),    # Red, zero PP
-    Color.new(248, 136, 32), Color.new(144, 72, 24),   # Orange, 1/4 of total PP or less
-    Color.new(248, 192, 0), Color.new(144, 104, 0),    # Yellow, 1/2 of total PP or less
+    Color.new(248, 72, 72), Color.new(78, 78, 78),    # Red, zero PP
+    Color.new(248, 136, 32), Color.new(78, 78, 78),   # Orange, 1/4 of total PP or less
+    Color.new(248, 192, 0), Color.new(78, 78, 78),    # Yellow, 1/2 of total PP or less
     TEXT_BASE_COLOR, TEXT_SHADOW_COLOR                 # Black, more than 1/2 of total PP
   ]
 

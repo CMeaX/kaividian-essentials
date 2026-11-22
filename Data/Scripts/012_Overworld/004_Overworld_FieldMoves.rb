@@ -175,10 +175,10 @@ end
 #===============================================================================
 def pbCut
   if $player.can_cut_trees
-    if pbConfirmMessage(_INTL("This tree looks like it can be cut down!\nWould you like to cut it?"))
+    if pbConfirmMessage(_INTL("This looks like it can be cut down!\nWould you like to commit an act of deforestation?"))
       $stats.cut_count += 1
       #speciesname = (movefinder) ? movefinder.name : $player.name
-      pbMessage(_INTL("{1} cut the tree!", $player.name))
+      pbMessage(_INTL("{1} swung the Axe!", $player.name))
       return true
     else
       return false
@@ -603,7 +603,7 @@ def pbRockSmash
     if pbConfirmMessage(_INTL("This rock seems breakable.\nWould you like to break it?"))
       $stats.rock_smash_count += 1
       #speciesname = (movefinder) ? movefinder.name : $player.name
-      pbMessage(_INTL("{1} broke the rock!", $player.name))
+      pbMessage(_INTL("{1} swung the Pickaxe!", $player.name))
       return true
     else
       return false
@@ -709,7 +709,7 @@ def pbSurf
   if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, false) || (!$DEBUG && !movefinder)
     return false
   end
-  if pbConfirmMessage(_INTL("The water is a deep blue color... Would you like to use Surf on it?"))
+  if pbConfirmMessage(_INTL("The water is a deep blue colour... Would you like to use Surf on it?"))
     speciesname = (movefinder) ? movefinder.name : $player.name
     pbMessage(_INTL("{1} used {2}!", speciesname, GameData::Move.get(move).name))
     pbCancelVehicles

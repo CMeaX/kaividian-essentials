@@ -180,6 +180,11 @@ SuperRod
 	15,LUMINEON,36,39
 	10,WHISCASH,36,39
 	5,GYARADOS,38,42
+RockSmash
+	60,GEODUDE,22,23
+	30,GRAVELER,25,28
+	5,OMANYTE,25,25
+	5,KABUTO,25,25
 #-------------------------------
 [109] # Kugwak Cave
 Cave,10
@@ -352,6 +357,8 @@ DarkGrassNight,25
 	4,MUNNA,11,16
 	4,STUNKY,11,16
 	2,SHINX,12,17
+RockSmash
+	100,GEODUDE,10,14
 #-------------------------------
 [133] # Bordridge Village
 Land,25

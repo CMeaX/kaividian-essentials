@@ -10,7 +10,7 @@
 
 module Settings
   # The version of your game. It has to adhere to the MAJOR.MINOR.PATCH format.
-  GAME_VERSION = "1.0.0"
+  GAME_VERSION = "1.4.0"
 
   # The generation that the battle system follows. Used throughout the battle
   # scripts, and also by some other settings which are used in and out of battle
@@ -25,13 +25,13 @@ module Settings
   # The maximum amount of money the player can have.
   MAX_MONEY            = 999_999
   # The maximum number of Game Corner coins the player can have.
-  MAX_COINS            = 99_999
+  MAX_COINS            = 999_999
   # The maximum number of Battle Points the player can have.
   MAX_BATTLE_POINTS    = 9_999
   # The maximum amount of soot the player can have.
   MAX_SOOT             = 9_999
   # The maximum length, in characters, that the player's name can be.
-  MAX_PLAYER_NAME_SIZE = 10
+  MAX_PLAYER_NAME_SIZE = 12
   # The maximum number of Pokémon that can be in the party.
   MAX_PARTY_SIZE       = 6
   # The maximum level Pokémon can reach.
@@ -39,11 +39,11 @@ module Settings
   # The level of newly hatched Pokémon.
   EGG_LEVEL            = 1
   # The odds of a newly generated Pokémon being shiny (out of 65536).
-  SHINY_POKEMON_CHANCE = (MECHANICS_GENERATION >= 6) ? 16 : 8
+  SHINY_POKEMON_CHANCE = 64 #(MECHANICS_GENERATION >= 6) ? 16 : 8
   # Whether super shininess is enabled (uses a different shiny animation).
-  SUPER_SHINY          = (MECHANICS_GENERATION >= 8)
+  SUPER_SHINY          = false #(MECHANICS_GENERATION >= 8)
   # The odds of a wild Pokémon/bred egg having Pokérus (out of 65536).
-  POKERUS_CHANCE       = 3
+  POKERUS_CHANCE       = 16
   # Whether IVs and EVs are treated as 0 when calculating a Pokémon's stats.
   # IVs and EVs still exist, and are used by Hidden Power and some cosmetic
   # things as normal.
@@ -56,10 +56,10 @@ module Settings
   # Whether the reflections of the player/events will ripple horizontally.
   ANIMATE_REFLECTIONS                        = true
   # Whether poisoned Pokémon will lose HP while walking around in the field.
-  POISON_IN_FIELD                            = (MECHANICS_GENERATION <= 4)
+  POISON_IN_FIELD                            = true #(MECHANICS_GENERATION <= 4)
   # Whether poisoned Pokémon will faint while walking around in the field
   # (true), or survive the poisoning with 1 HP (false).
-  POISON_FAINT_IN_FIELD                      = (MECHANICS_GENERATION <= 3)
+  POISON_FAINT_IN_FIELD                      = true #(MECHANICS_GENERATION <= 3)
   # Whether planted berries grow according to Gen 4 mechanics (true) or Gen 3
   # mechanics (false).
   NEW_BERRY_PLANTS                           = (MECHANICS_GENERATION >= 4)
@@ -168,7 +168,7 @@ module Settings
   # Whether you need at least a certain number of badges to use some hidden
   # moves in the field (true), or whether you need one specific badge to use
   # them (false). The amounts/specific badges are defined below.
-  FIELD_MOVES_COUNT_BADGES = true
+  FIELD_MOVES_COUNT_BADGES = false
   # Depending on FIELD_MOVES_COUNT_BADGES, either the number of badges required
   # to use each hidden move in the field, or the specific badge number required
   # to use each move. Remember that badge 0 is the first badge, badge 1 is the
@@ -444,17 +444,29 @@ module Settings
   # automatically.
   def self.game_credits
     return [
-      _INTL("My Game by:"),
-      "Maruno",
+      _INTL("PROJECT MAPLE"),
+      "A non-lucrative Pokémon fan-game",
+      "created by C.Mea",
+      "and inspired by the works of Game Freak.",
       "",
-      _INTL("Also involved were:"),
-      "A. Lee Uss<s>Anne O'Nymus",
-      "Ecksam Pell<s>Jane Doe",
-      "Joe Dan<s>Nick Nayme",
-      "Sue Donnim<s>",
+      "Additional Help",
+      "Game Logo: Purrdemonium",
+      "Primary Coding: Kaividian",
+      "Triple Save Coding: Marin",
+      "Mapping: Design3D",
+      "Music: Irene Chan, The Zame, Raushna, LordViro64",
+      "Spriting: Kaividian",
+      "Encounters: Gamer7256",
       "",
-      _INTL("Special thanks to:"),
-      "Pizza"
+      "Minor Help/Ideas",
+      "Legna K, Lymnus, ArashiYT, MCRen",
+      "",
+      "Additional Resources",
+      "Scripts: Marin",
+      "Tiles: Zein Wah, spherical-ice",
+      "Overworld Sprites: RaShaw",
+      "",
+      "And a massive thanks to all the fans!",
     ]
   end
 
